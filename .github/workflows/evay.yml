@@ -19,3 +19,4 @@ jobs:
         with:
           branch: view
           folder: build
+          token: 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
