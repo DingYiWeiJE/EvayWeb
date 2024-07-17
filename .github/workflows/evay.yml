@@ -1,0 +1,21 @@
+name: 丁凯乐的打包流程
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    name: 开始打包啦
+    runs-on: ubuntu-latest
+    steps:
+      - name: 读取仓库内容
+        uses: actions/checkout@v4
+      - name: 安装依赖项目打包
+        run: |
+          npm install
+          npm run build
+      - name: 部署发版
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: view
+          folder: build
