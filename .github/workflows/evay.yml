@@ -17,6 +17,6 @@ jobs:
       - name: 部署发版
         uses: JamesIves/github-pages-deploy-action@4.1.3
         with:
-          BRANCH: gh-pages
-          FOLDER: dist
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          branch: view
+          folder: build
+          token: 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
