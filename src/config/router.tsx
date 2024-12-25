@@ -5,6 +5,7 @@ import VirtualListDemo from "../pages/VirtualListDemo/virtualListDemo";
 import IndexDb from "../pages/IndexDb/IndexDb";
 import Crypto from "../pages/Crypto/Crypto";
 import SelfAdaption from "../pages/SelfAdaption/SelfAdaption";
+import {Translate} from "../pages/Translate/Translate";
 
 export const routerArr = [
   {
@@ -35,6 +36,11 @@ export const routerArr = [
     path: "/EvayWeb/myRem",
     name: '自适应',
     element: <SelfAdaption/>,
+  },
+  {
+    path: "/EvayWeb/Translate",
+    name: '翻译',
+    element: <Translate/>,
   },
 ]
 
