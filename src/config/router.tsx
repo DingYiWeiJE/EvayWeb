@@ -24,7 +24,7 @@ export const routerArr = [
   },
   {
     path: "/EvayWeb/indexDB",
-    name: 'indexDB',
+    name: 'indexDB储存空间',
     element: <IndexDb/>,
   },
   {
