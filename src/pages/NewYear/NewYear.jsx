@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import borderImg from '../../assets/borderBg.png';
 import img5 from '../../assets/WechatIMG42.png';
+import Open from './Open'
 
 const CodeRainHeartAnimation = () => {
   // Refs for canvas elements
@@ -148,6 +149,7 @@ const CodeRainHeartAnimation = () => {
           }} src={borderImg} alt="" />
       </div>
       
+      <Open/>
     </div>
   );
 };

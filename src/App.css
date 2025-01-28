@@ -58,3 +58,40 @@ a{
     transform: rotate(360deg);
   }
 }
+
+.open{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bt{
+  width: 20%;
+  height: 50px;
+  transition: 0.3s ease-in-out;
+  animation: breath 1.5s infinite;
+}
+
+@keyframes breath {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.1); /* 略微放大 */
+  }
+  50% {
+    transform: scale(1); /* 恢复原状 */
+  }
+  75% {
+    transform: scale(1.1); /* 略微放大 */
+  }
+  100% {
+    transform: scale(1); /* 恢复原状 */
+  }
+}
