@@ -91,18 +91,18 @@ const CodeRainHeartAnimation = () => {
     // Main Animation Loop
     const animate = () => {
       drawCodeRain();
-      setTimeout(animate, 50);
+      setTimeout(animate, 100);
     };
 
     const heartAnimate = () => {
       drawHearts();
-      createHeart();
       requestAnimationFrame(heartAnimate);
     };
 
     // Start the animations
     animate();
     heartAnimate();
+    setInterval(createHeart, 100);
 
     // Cleanup when the component is unmounted
     return () => {
@@ -123,8 +123,8 @@ const CodeRainHeartAnimation = () => {
       <div style={{
             position: 'fixed',
             top: '50%',
-            left: '25%',
-            width: '50%',
+            left: '15%',
+            width: '70%',
             transform: 'translateY(-50%)',
             zIndex: 99,
           }}>
