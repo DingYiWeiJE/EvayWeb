@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Link } from 'react-router-dom';
 import { routerArr } from './config/router';
-import CodeRainHeartAnimation from './pages/NewYear'
+import CodeRainHeartAnimation from './pages/NewYear/NewYear'
 
 function App() {
   if (3 > 4) {

@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
-import borderImg from '../assets/borderBg.png';
+import borderImg from '../../assets/borderBg.png';
+import RadialImageTransition from './RadialImageTransition'
 
 const CodeRainHeartAnimation = () => {
   // Refs for canvas elements
@@ -121,28 +122,18 @@ const CodeRainHeartAnimation = () => {
 
       {/* Image */}
       <div style={{
-            position: 'fixed',
-            top: '50%',
-            left: '15%',
-            width: '70%',
-            transform: 'translateY(-50%)',
-            zIndex: 99,
-          }}>
-        <img 
-          style={{
-            width: '100%',
-            aspectRatio:1,
-            objectFit: 'cover',
-            clipPath: 'circle(41% at 53% 50%)'
-          }}
-          src="https://img1.baidu.com/it/u=1718678628,941703067&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1422" 
-          alt="Code Rain"
-        />
+          position: 'fixed',
+          top: '50%',
+          left: '15%',
+          width: '70%',
+          transform: 'translateY(-50%)',
+        }}>
+        <RadialImageTransition/>
         <img style={{
           position: 'absolute',
-          top: 0,
-          left: 0,
-            width: '100%',
+          top: '-15%',
+          left: '-15%',
+            width: '119%',
             aspectRatio:1,
             objectFit: 'cover',
           }} src={borderImg} alt="" />
