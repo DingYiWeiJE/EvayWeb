@@ -65,7 +65,7 @@ const CodeRainHeartAnimation = () => {
         size,
         speed,
         angle,
-        opacity: 1,
+        opacity: 0.8,
       });
     };
 
@@ -102,7 +102,7 @@ const CodeRainHeartAnimation = () => {
     // Start the animations
     animate();
     heartAnimate();
-    setInterval(createHeart, 100);
+    setInterval(createHeart, 80);
 
     // Cleanup when the component is unmounted
     return () => {
