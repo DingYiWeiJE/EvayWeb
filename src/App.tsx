@@ -3,10 +3,11 @@ import logo from './logo.svg';
 import './App.css';
 import { Link } from 'react-router-dom';
 import { routerArr } from './config/router';
+import CodeRainHeartAnimation from './pages/NewYear'
 
 function App() {
-  return (
-    <div className="App">
+  if (3 > 4) {
+    return <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         {routerArr.map(item => {
@@ -14,6 +15,9 @@ function App() {
         })}
       </header>
     </div>
+  }
+  return (
+    <CodeRainHeartAnimation/>
   );
 }
 
