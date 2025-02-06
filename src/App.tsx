@@ -6,7 +6,7 @@ import { routerArr } from './config/router';
 import CodeRainHeartAnimation from './pages/NewYear/NewYear'
 
 function App() {
-  if (3 > 4) {
+  if (3 < 4) {
     return <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
