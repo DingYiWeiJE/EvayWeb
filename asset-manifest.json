@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/EvayWeb/static/css/main.dc3b32d5.css",
-    "main.js": "/EvayWeb/static/js/main.01eba96c.js",
+    "main.js": "/EvayWeb/static/js/main.43733950.js",
     "static/js/453.cfd59cba.chunk.js": "/EvayWeb/static/js/453.cfd59cba.chunk.js",
     "static/media/我们像风.mp3": "/EvayWeb/static/media/我们像风.e0b25d2d44bcfed3d817.mp3",
     "static/media/borderBg.png": "/EvayWeb/static/media/borderBg.4f2d07132f6b1396331f.png",
@@ -9,11 +9,11 @@
     "static/media/logo.svg": "/EvayWeb/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/EvayWeb/index.html",
     "main.dc3b32d5.css.map": "/EvayWeb/static/css/main.dc3b32d5.css.map",
-    "main.01eba96c.js.map": "/EvayWeb/static/js/main.01eba96c.js.map",
+    "main.43733950.js.map": "/EvayWeb/static/js/main.43733950.js.map",
     "453.cfd59cba.chunk.js.map": "/EvayWeb/static/js/453.cfd59cba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc3b32d5.css",
-    "static/js/main.01eba96c.js"
+    "static/js/main.43733950.js"
   ]
 }
